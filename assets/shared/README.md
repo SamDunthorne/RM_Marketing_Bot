@@ -6,8 +6,10 @@ templates, etc.
 
 ## Layout
 
-- `logos/` - Roofmaster Ottawa logo files (PNG with transparent background preferred, plus a
-  square version for profile-picture-style crops).
+- `logos/` - Roofmaster Ottawa logo files, transparent-background PNG. Save the primary mark as
+  `logo.png` -- that's the default path `scripts/apply_logo_overlay.py` looks for when stamping
+  the logo onto post photos. Add extra variants (horizontal wordmark, light/dark version) under
+  other filenames as needed.
 - `branding/` - color swatches, fonts, banner/frame overlays you want stamped on photos.
 - `boilerplate/` - reusable text snippets, e.g. `company_bio.txt`, `standard_cta.txt`,
   `hashtags.txt`. Posting scripts can read these to keep messaging consistent.
