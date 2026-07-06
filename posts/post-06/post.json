@@ -8,7 +8,7 @@
     "images/consult-1.jpg",
     "images/consult-2.jpg"
   ],
-  "cta": { "type": "email", "label": "Email Us", "value": "info@roofmasterottawa.com" },
+  "cta": { "type": "email", "label": "Email Us", "value": "admin@roofmaster.ca" },
   "status": "pending",
   "posted": { "facebook": null, "instagram": null, "google_business": null }
 }

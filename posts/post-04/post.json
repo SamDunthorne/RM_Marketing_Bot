@@ -8,7 +8,7 @@
     "images/quote-promo-1.jpg",
     "images/quote-promo-2.jpg"
   ],
-  "cta": { "type": "website", "label": "Get a Free Quote", "value": "https://roofmasterottawa.com" },
+  "cta": { "type": "website", "label": "Get a Free Quote", "value": "https://www.roofmaster.ca/contact-us" },
   "status": "pending",
   "posted": { "facebook": null, "instagram": null, "google_business": null }
 }

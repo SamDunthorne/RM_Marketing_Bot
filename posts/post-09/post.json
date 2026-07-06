@@ -8,7 +8,7 @@
     "images/seasonal-prep-1.jpg",
     "images/seasonal-prep-2.jpg"
   ],
-  "cta": { "type": "call", "label": "Book Your Inspection", "value": "+1-613-XXX-XXXX" },
+  "cta": { "type": "call", "label": "Book Your Inspection", "value": "(613) 521-0088" },
   "status": "pending",
   "posted": { "facebook": null, "instagram": null, "google_business": null }
 }

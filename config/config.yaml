@@ -3,9 +3,10 @@
 
 business:
   name: "Roofmaster Ottawa Inc."
-  phone: "+1-613-XXX-XXXX"        # TODO: replace with real number
-  email: "info@roofmasterottawa.com"   # TODO: confirm real inbox
-  website: "https://roofmasterottawa.com"  # TODO: confirm real domain
+  phone: "+1-613-521-0088"
+  email: "admin@roofmaster.ca"
+  website: "https://roofmaster.ca"
+  contact_page: "https://www.roofmaster.ca/contact-us"
   service_area: "Ottawa, ON and surrounding area"
   default_hashtags:
     - "#RoofmasterOttawa"

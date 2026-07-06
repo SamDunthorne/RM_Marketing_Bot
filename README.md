@@ -31,23 +31,14 @@ config/config.yaml - non-secret business info & settings
    don't support real CTA buttons on organic posts). Google Business Profile gets a real CTA
    button via its Local Post API.
 
-## Important: image hosting requires the repo to be public
+## Image hosting
 
 Facebook, Instagram, and Google's APIs all fetch each image server-side from a URL you give
-them -- they can't read a private GitHub repo. This setup defaults to serving images straight
-from this repo via `raw.githubusercontent.com`, which only works if **the repo is public**.
-
-Since this repo (`SamDunthorne/RM_Marketing_Bot`) is currently **private**, you have two options:
-
-1. **Make the repo public.** Simplest, and fine if the only "sensitive" content is marketing
-   photos/captions (no credentials live in the repo -- those are GitHub Actions secrets). I did
-   not do this myself since changing repo visibility is your call.
-2. **Keep it private and host images elsewhere** (e.g. an S3 bucket, Cloudinary, or a simple
-   image host), then set `IMAGE_BASE_URL` (as a GitHub Actions **repository variable**, not
-   secret, since it's not sensitive) to that host's base URL instead of the GitHub raw URL, and
-   upload images there instead of (or in addition to) committing them here.
-
-Let me know which you'd prefer and I can adjust.
+them -- they can't read a private repo, and Synology NAS hotlinks require exposing the NAS to
+the public internet 24/7, and Google Drive share links don't reliably serve as direct image URLs
+(Google shows an interstitial page instead for many files). So this repo
+(`SamDunthorne/RM_Marketing_Bot`) is now **public**, and images are served straight from it via
+`raw.githubusercontent.com`. No credentials live in the repo -- those are GitHub Actions secrets.
 
 ## Setting up each platform
 
@@ -67,15 +58,14 @@ And one **repository variable** (same screen, "Variables" tab -- not secret):
 ## Adding real content
 
 The 10 example posts under `posts/` use placeholder image filenames
-(e.g. `images/roof-inspection-1.jpg`) and a placeholder phone number/email in
+(e.g. `images/roof-inspection-1.jpg`). Real business contact info (phone `(613) 521-0088`,
+email `admin@roofmaster.ca`, website `https://roofmaster.ca`) is already filled in across
 `config/config.yaml` and each post's CTA. Before going live:
 
 1. Drop your logo and any reusable graphics into `assets/shared/` (see its README).
 2. Replace the placeholder images in each `posts/post-XX/images/` folder with real photos
    (same filenames referenced in that post's `post.json`, or update the filenames).
-3. Fill in the real phone number, email, and website in `config/config.yaml` and in each post's
-   `cta.value`.
-4. Adjust `scheduled_time` values to whenever you actually want each post to go out.
+3. Adjust `scheduled_time` values to whenever you actually want each post to go out.
 
 ## Running locally (optional, for testing before it's all wired into Actions)
 
@@ -88,7 +78,5 @@ python scheduler.py
 
 ## Questions worth answering before this goes live
 
-- Public vs. private repo for image hosting (see above).
-- Real business phone number and email/website to replace placeholders.
 - Whether you want Google Business Profile posting now, or to add it once API access is
   approved (Facebook/Instagram can go live independently in the meantime).

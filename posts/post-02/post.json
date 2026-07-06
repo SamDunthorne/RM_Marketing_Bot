@@ -8,7 +8,7 @@
     "images/storm-damage-1.jpg",
     "images/storm-damage-2.jpg"
   ],
-  "cta": { "type": "call", "label": "Call for a Free Assessment", "value": "+1-613-XXX-XXXX" },
+  "cta": { "type": "call", "label": "Call for a Free Assessment", "value": "(613) 521-0088" },
   "status": "pending",
   "posted": { "facebook": null, "instagram": null, "google_business": null }
 }
