@@ -58,9 +58,9 @@ def overlay_logo(
     logo_path: Path,
     output_path: Path,
     corner: str = "bottom-right",
-    logo_width_ratio: float = 0.18,
-    padding_ratio: float = 0.02,
-    fade_ratio: float = 1.3,
+    logo_width_ratio: float = 0.26,
+    padding_ratio: float = 0.03,
+    fade_ratio: float = 1.2,
     band_opacity: float = 0.85,
     band_color=(255, 255, 255),
 ):
