@@ -1,0 +1,14 @@
+{
+  "id": "post-07",
+  "scheduled_time": "2026-07-26T09:00:00-04:00",
+  "platforms": ["facebook", "instagram"],
+  "post_type": "basic",
+  "caption": "Asphalt shingles, metal, or flat roofing -- every material has a different lifespan and maintenance need. Here's a peek at the materials we work with most often in Ottawa.",
+  "images": [
+    "images/materials-1.jpg",
+    "images/materials-2.jpg"
+  ],
+  "cta": null,
+  "status": "pending",
+  "posted": { "facebook": null, "instagram": null, "google_business": null }
+}

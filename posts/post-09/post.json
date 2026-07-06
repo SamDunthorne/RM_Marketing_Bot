@@ -1,0 +1,14 @@
+{
+  "id": "post-09",
+  "scheduled_time": "2026-08-01T09:00:00-04:00",
+  "platforms": ["facebook", "instagram", "google_business"],
+  "post_type": "cta",
+  "caption": "Fall is the best time to get your roof winter-ready. Book your seasonal inspection now before the schedule fills up.",
+  "images": [
+    "images/seasonal-prep-1.jpg",
+    "images/seasonal-prep-2.jpg"
+  ],
+  "cta": { "type": "call", "label": "Book Your Inspection", "value": "+1-613-XXX-XXXX" },
+  "status": "pending",
+  "posted": { "facebook": null, "instagram": null, "google_business": null }
+}

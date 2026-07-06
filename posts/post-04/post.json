@@ -1,0 +1,14 @@
+{
+  "id": "post-04",
+  "scheduled_time": "2026-07-17T17:00:00-04:00",
+  "platforms": ["facebook", "instagram", "google_business"],
+  "post_type": "cta",
+  "caption": "Thinking about a roof replacement before winter? Get ahead of the rush -- request a free, no-obligation quote from Roofmaster Ottawa today.",
+  "images": [
+    "images/quote-promo-1.jpg",
+    "images/quote-promo-2.jpg"
+  ],
+  "cta": { "type": "website", "label": "Get a Free Quote", "value": "https://roofmasterottawa.com" },
+  "status": "pending",
+  "posted": { "facebook": null, "instagram": null, "google_business": null }
+}

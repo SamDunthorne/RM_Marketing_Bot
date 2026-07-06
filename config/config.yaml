@@ -1,0 +1,29 @@
+# Roofmaster Ottawa Inc. - business & bot configuration
+# Non-secret settings live here. Real tokens/keys go in .env or GitHub Actions secrets.
+
+business:
+  name: "Roofmaster Ottawa Inc."
+  phone: "+1-613-XXX-XXXX"        # TODO: replace with real number
+  email: "info@roofmasterottawa.com"   # TODO: confirm real inbox
+  website: "https://roofmasterottawa.com"  # TODO: confirm real domain
+  service_area: "Ottawa, ON and surrounding area"
+  default_hashtags:
+    - "#RoofmasterOttawa"
+    - "#OttawaRoofing"
+    - "#RoofingContractor"
+    - "#OttawaHomes"
+
+posting:
+  # How often the GitHub Actions workflow checks for due posts (must match .github/workflows/publish-scheduled-posts.yml)
+  check_interval_minutes: 30
+  timezone: "America/Toronto"
+
+platforms:
+  facebook:
+    enabled: true
+    graph_api_version: "v20.0"
+  instagram:
+    enabled: true
+    graph_api_version: "v20.0"
+  google_business:
+    enabled: true

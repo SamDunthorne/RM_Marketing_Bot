@@ -1,0 +1,14 @@
+{
+  "id": "post-03",
+  "scheduled_time": "2026-07-14T09:00:00-04:00",
+  "platforms": ["facebook", "instagram"],
+  "post_type": "basic",
+  "caption": "Before and after: a full shingle replacement we completed this week in the Ottawa area. Quality materials and clean workmanship, every time.",
+  "images": [
+    "images/before-after-1.jpg",
+    "images/before-after-2.jpg"
+  ],
+  "cta": null,
+  "status": "pending",
+  "posted": { "facebook": null, "instagram": null, "google_business": null }
+}

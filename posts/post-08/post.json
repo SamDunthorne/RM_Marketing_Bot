@@ -1,0 +1,14 @@
+{
+  "id": "post-08",
+  "scheduled_time": "2026-07-29T17:00:00-04:00",
+  "platforms": ["facebook", "instagram", "google_business"],
+  "post_type": "basic",
+  "caption": "\"Roofmaster Ottawa replaced our roof ahead of schedule and left the yard spotless. Highly recommend!\" -- thank you to another happy Ottawa homeowner.",
+  "images": [
+    "images/testimonial-1.jpg",
+    "images/testimonial-2.jpg"
+  ],
+  "cta": null,
+  "status": "pending",
+  "posted": { "facebook": null, "instagram": null, "google_business": null }
+}

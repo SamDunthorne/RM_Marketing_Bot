@@ -1,0 +1,18 @@
+
+# Secrets - never commit real credentials
+.env
+config/secrets.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+scheduler_state.log

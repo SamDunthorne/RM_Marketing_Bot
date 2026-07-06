@@ -1,0 +1,14 @@
+{
+  "id": "post-06",
+  "scheduled_time": "2026-07-23T12:00:00-04:00",
+  "platforms": ["facebook", "instagram", "google_business"],
+  "post_type": "cta",
+  "caption": "Have questions about a roofing project but not ready for a call? Send us the details and photos and we'll get back to you with next steps.",
+  "images": [
+    "images/consult-1.jpg",
+    "images/consult-2.jpg"
+  ],
+  "cta": { "type": "email", "label": "Email Us", "value": "info@roofmasterottawa.com" },
+  "status": "pending",
+  "posted": { "facebook": null, "instagram": null, "google_business": null }
+}

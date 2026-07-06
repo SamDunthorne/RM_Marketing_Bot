@@ -1,0 +1,14 @@
+{
+  "id": "post-02",
+  "scheduled_time": "2026-07-11T12:00:00-04:00",
+  "platforms": ["facebook", "instagram", "google_business"],
+  "post_type": "cta",
+  "caption": "Noticed missing shingles or a leak after the last storm? Don't wait for it to get worse -- our team offers fast, free roof damage assessments across Ottawa.",
+  "images": [
+    "images/storm-damage-1.jpg",
+    "images/storm-damage-2.jpg"
+  ],
+  "cta": { "type": "call", "label": "Call for a Free Assessment", "value": "+1-613-XXX-XXXX" },
+  "status": "pending",
+  "posted": { "facebook": null, "instagram": null, "google_business": null }
+}
