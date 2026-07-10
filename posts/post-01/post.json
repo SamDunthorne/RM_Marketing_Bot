@@ -1,7 +1,11 @@
 {
   "id": "post-01",
   "scheduled_time": "2026-07-08T09:00:00-04:00",
-  "platforms": ["facebook", "instagram", "google_business"],
+  "platforms": [
+    "facebook",
+    "instagram",
+    "google_business"
+  ],
   "post_type": "basic",
   "caption": "Not sure how old your roof is or if it needs attention? A quick visual inspection twice a year can catch small issues before they become big, expensive problems. Here's a look at one of our recent inspections in Ottawa!",
   "images": [
@@ -10,5 +14,21 @@
   ],
   "cta": null,
   "status": "pending",
-  "posted": { "facebook": null, "instagram": null, "google_business": null }
+  "posted": {
+    "facebook": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
+      "at": "2026-07-10T13:28:29.122070+00:00"
+    },
+    "instagram": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
+      "at": "2026-07-10T13:28:29.285111+00:00"
+    },
+    "google_business": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://oauth2.googleapis.com/token",
+      "at": "2026-07-10T13:28:29.352035+00:00"
+    }
+  }
 }
