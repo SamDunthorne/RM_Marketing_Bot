@@ -104,7 +104,7 @@ def add_text_overlay(
 
     kicker_size = int(h * 0.05)
     headline_size = int(h * 0.075)
-    subtext_size = int(h * 0.042)
+    subtext_size = int(h * 0.05)
 
     kicker_font = ImageFont.truetype(str(FONT_BOLD), kicker_size)
     headline_font = ImageFont.truetype(str(FONT_BOLD), headline_size)
