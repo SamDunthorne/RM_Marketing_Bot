@@ -77,7 +77,7 @@ def add_text_overlay(
     subtext: str = None,
     kicker: str = None,
     position: str = "top",
-    scrim_height_ratio: float = 0.36,
+    scrim_height_ratio: float = 0.44,
     scrim_opacity: float = 0.45,
 ):
     image = Image.open(image_path).convert("RGBA")
@@ -96,15 +96,15 @@ def add_text_overlay(
 
     draw = ImageDraw.Draw(composited)
     padding = int(w * 0.05)
-    max_text_width = int(w * 0.7)
+    max_text_width = int(w * 0.85)
     tracking = int(h * 0.004)
-    line_gap = int(h * 0.012)
-    shadow_offset = max(1, int(h * 0.002))
+    line_gap = int(h * 0.014)
+    shadow_offset = max(1, int(h * 0.0025))
     shadow_fill = (0, 0, 0, 130)
 
-    kicker_size = int(h * 0.032)
-    headline_size = int(h * 0.052)
-    subtext_size = int(h * 0.03)
+    kicker_size = int(h * 0.042)
+    headline_size = int(h * 0.075)
+    subtext_size = int(h * 0.042)
 
     kicker_font = ImageFont.truetype(str(FONT_LIGHT), kicker_size)
     headline_font = ImageFont.truetype(str(FONT_BOLD), headline_size)
