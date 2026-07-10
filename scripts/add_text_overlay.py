@@ -102,11 +102,11 @@ def add_text_overlay(
     shadow_offset = max(1, int(h * 0.0025))
     shadow_fill = (0, 0, 0, 130)
 
-    kicker_size = int(h * 0.042)
+    kicker_size = int(h * 0.05)
     headline_size = int(h * 0.075)
     subtext_size = int(h * 0.042)
 
-    kicker_font = ImageFont.truetype(str(FONT_LIGHT), kicker_size)
+    kicker_font = ImageFont.truetype(str(FONT_BOLD), kicker_size)
     headline_font = ImageFont.truetype(str(FONT_BOLD), headline_size)
     subtext_font = ImageFont.truetype(str(FONT_BOLD), subtext_size)
 
