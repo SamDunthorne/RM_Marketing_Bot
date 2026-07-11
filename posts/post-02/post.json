@@ -1,14 +1,38 @@
 {
   "id": "post-02",
   "scheduled_time": "2026-07-11T12:00:00-04:00",
-  "platforms": ["facebook", "instagram", "google_business"],
+  "platforms": [
+    "facebook",
+    "instagram",
+    "google_business"
+  ],
   "post_type": "cta",
   "caption": "Noticed missing shingles or a leak after the last storm? Don't wait for it to get worse -- our team offers fast, free roof damage assessments across Ottawa.",
   "images": [
     "images/storm-damage-1.jpg",
     "images/storm-damage-2.jpg"
   ],
-  "cta": { "type": "call", "label": "Call for a Free Assessment", "value": "(613) 521-0088" },
+  "cta": {
+    "type": "call",
+    "label": "Call for a Free Assessment",
+    "value": "(613) 521-0088"
+  },
   "status": "pending",
-  "posted": { "facebook": null, "instagram": null, "google_business": null }
+  "posted": {
+    "facebook": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
+      "at": "2026-07-11T16:05:18.387180+00:00"
+    },
+    "instagram": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
+      "at": "2026-07-11T16:05:18.662665+00:00"
+    },
+    "google_business": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://oauth2.googleapis.com/token",
+      "at": "2026-07-11T16:05:18.814886+00:00"
+    }
+  }
 }
