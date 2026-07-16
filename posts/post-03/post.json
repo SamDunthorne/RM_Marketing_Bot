@@ -1,7 +1,10 @@
 {
   "id": "post-03",
   "scheduled_time": "2026-07-14T09:00:00-04:00",
-  "platforms": ["facebook", "instagram"],
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
   "post_type": "basic",
   "caption": "Before and after: a full shingle replacement we completed this week in the Ottawa area. Quality materials and clean workmanship, every time.",
   "images": [
@@ -10,5 +13,17 @@
   ],
   "cta": null,
   "status": "pending",
-  "posted": { "facebook": null, "instagram": null, "google_business": null }
+  "posted": {
+    "facebook": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
+      "at": "2026-07-16T16:50:07.099253+00:00"
+    },
+    "instagram": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
+      "at": "2026-07-16T16:50:07.173771+00:00"
+    },
+    "google_business": null
+  }
 }
