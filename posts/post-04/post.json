@@ -1,14 +1,38 @@
 {
   "id": "post-04",
   "scheduled_time": "2026-07-17T17:00:00-04:00",
-  "platforms": ["facebook", "instagram", "google_business"],
+  "platforms": [
+    "facebook",
+    "instagram",
+    "google_business"
+  ],
   "post_type": "cta",
   "caption": "Thinking about a roof replacement before winter? Get ahead of the rush -- request a free, no-obligation quote from Roofmaster Ottawa today.",
   "images": [
     "images/quote-promo-1.jpg",
     "images/quote-promo-2.jpg"
   ],
-  "cta": { "type": "website", "label": "Get a Free Quote", "value": "https://www.roofmaster.ca/contact-us" },
+  "cta": {
+    "type": "website",
+    "label": "Get a Free Quote",
+    "value": "https://www.roofmaster.ca/contact-us"
+  },
   "status": "pending",
-  "posted": { "facebook": null, "instagram": null, "google_business": null }
+  "posted": {
+    "facebook": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
+      "at": "2026-07-17T21:23:34.859495+00:00"
+    },
+    "instagram": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
+      "at": "2026-07-17T21:23:34.926798+00:00"
+    },
+    "google_business": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://oauth2.googleapis.com/token",
+      "at": "2026-07-17T21:23:35.041114+00:00"
+    }
+  }
 }
