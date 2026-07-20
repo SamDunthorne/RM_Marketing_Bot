@@ -1,7 +1,10 @@
 {
   "id": "post-05",
   "scheduled_time": "2026-07-20T09:00:00-04:00",
-  "platforms": ["facebook", "instagram"],
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
   "post_type": "basic",
   "caption": "Meet part of the crew behind every Roofmaster Ottawa job! Our team brings years of experience to every roof, big or small.",
   "images": [
@@ -10,5 +13,17 @@
   ],
   "cta": null,
   "status": "pending",
-  "posted": { "facebook": null, "instagram": null, "google_business": null }
+  "posted": {
+    "facebook": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
+      "at": "2026-07-20T15:15:16.095398+00:00"
+    },
+    "instagram": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
+      "at": "2026-07-20T15:15:16.580443+00:00"
+    },
+    "google_business": null
+  }
 }
