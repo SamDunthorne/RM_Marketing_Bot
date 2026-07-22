@@ -22,17 +22,17 @@
     "facebook": {
       "ok": false,
       "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
-      "at": "2026-07-22T14:35:33.086595+00:00"
+      "at": "2026-07-22T16:24:09.685372+00:00"
     },
     "instagram": {
       "ok": false,
       "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
-      "at": "2026-07-22T14:35:33.674868+00:00"
+      "at": "2026-07-22T16:24:10.242379+00:00"
     },
     "google_business": {
       "ok": false,
       "error": "400 Client Error: Bad Request for url: https://oauth2.googleapis.com/token",
-      "at": "2026-07-22T14:35:33.739567+00:00"
+      "at": "2026-07-22T16:24:10.309730+00:00"
     }
   }
 }
