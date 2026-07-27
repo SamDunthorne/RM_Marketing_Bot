@@ -1,7 +1,10 @@
 {
   "id": "post-07",
   "scheduled_time": "2026-07-26T09:00:00-04:00",
-  "platforms": ["facebook", "instagram"],
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
   "post_type": "basic",
   "caption": "Asphalt shingles, metal, or flat roofing -- every material has a different lifespan and maintenance need. Here's a peek at the materials we work with most often in Ottawa.",
   "images": [
@@ -10,5 +13,17 @@
   ],
   "cta": null,
   "status": "pending",
-  "posted": { "facebook": null, "instagram": null, "google_business": null }
+  "posted": {
+    "facebook": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
+      "at": "2026-07-27T11:30:55.124595+00:00"
+    },
+    "instagram": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
+      "at": "2026-07-27T11:30:55.219507+00:00"
+    },
+    "google_business": null
+  }
 }
