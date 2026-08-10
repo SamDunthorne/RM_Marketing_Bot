@@ -1,7 +1,10 @@
 {
   "id": "post-10",
   "scheduled_time": "2026-08-04T12:00:00-04:00",
-  "platforms": ["facebook", "instagram"],
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
   "post_type": "basic",
   "caption": "Thank you, Ottawa, for trusting us with your homes for another month! Proud to be part of this community.",
   "images": [
@@ -10,5 +13,17 @@
   ],
   "cta": null,
   "status": "pending",
-  "posted": { "facebook": null, "instagram": null, "google_business": null }
+  "posted": {
+    "facebook": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
+      "at": "2026-08-10T15:08:50.451225+00:00"
+    },
+    "instagram": {
+      "ok": false,
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
+      "at": "2026-08-10T15:08:50.718307+00:00"
+    },
+    "google_business": null
+  }
 }
