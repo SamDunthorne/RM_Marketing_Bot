@@ -17,12 +17,12 @@
     "facebook": {
       "ok": false,
       "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//photos",
-      "at": "2026-08-25T22:32:47.436481+00:00"
+      "at": "2026-08-25T23:29:22.285653+00:00"
     },
     "instagram": {
       "ok": false,
       "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v20.0//media",
-      "at": "2026-08-25T22:32:47.572089+00:00"
+      "at": "2026-08-25T23:29:22.409038+00:00"
     },
     "google_business": null
   }
